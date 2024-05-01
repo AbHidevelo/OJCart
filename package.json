@@ -1,0 +1,32 @@
+{
+  "name": "ojcart",
+  "version": "1.0.0",
+  "description": "eCommerce app build with the MERN Stack",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "server": "nodemon server/index.js --ignore client",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "data:import": "node server/seeder.js",
+    "data:destroy": "node server/seeder.js -d",
+    "build": "npm install && npm install --prefix client && npm run build --prefix client"
+  },
+  "author": "Abhishek Ojha",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.3.2",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.0"
+  }
+}
