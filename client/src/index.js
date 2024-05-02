@@ -41,6 +41,7 @@ const router = createBrowserRouter(
       <Route path='/search/:keyword' element ={<HomePage />}/>
       <Route path='/page/:pageNumber' element ={<HomePage />}/>
       <Route path='/search/:keyword/page/:pageNumber' element ={<HomePage />}/>
+      
       <Route path='/product/:id' element ={<ProductPage />}/>
       <Route path='/cart' element ={<KartPage />}/>
       <Route path='/login' element ={<LoginPage />}/>
@@ -57,6 +58,7 @@ const router = createBrowserRouter(
       <Route path='' element={<AdminRoute/>}>
         <Route path='/admin/orderList' element={<OrderListPage/>}/>
         <Route path='/admin/productList' element={<ProductListPage/>}/>
+        <Route path='/admin/productList/:pageNumber' element={<ProductListPage/>}/>
         <Route path='/admin/product/:id/edit' element={<ProductEditPage/>}/>
         <Route path='/admin/userList' element={<UserListPage/>}/>
         <Route path='/admin/user/:id/edit' element={<UserEditPage/>}/>

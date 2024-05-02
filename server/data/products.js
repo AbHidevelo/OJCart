@@ -10,7 +10,7 @@ const products = [
       category: "smartphones",
       thumbnail: "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg",
       images:  "https://cdn.dummyjson.com/product-images/1/1.jpg", 
-      comment:""
+       numReview : 2,
     },
     {
       title: "iPhone X",
@@ -23,7 +23,7 @@ const products = [
       category: "smartphones",
       thumbnail: "https://cdn.dummyjson.com/product-images/2/thumbnail.jpg",
       images:  "https://cdn.dummyjson.com/product-images/2/1.jpg", 
-  comment:""
+   numReview : 2,
     },
     {
       title: "Samsung Universe 9",
@@ -36,7 +36,7 @@ const products = [
       category: "smartphones",
       thumbnail: "https://cdn.dummyjson.com/product-images/3/thumbnail.jpg",
       images:  "https://cdn.dummyjson.com/product-images/3/1.jpg", 
-  comment:""
+   numReview : 2,
     },
     {
       title: "OPPOF19",
@@ -49,7 +49,7 @@ const products = [
       category: "smartphones",
       thumbnail: "https://cdn.dummyjson.com/product-images/4/thumbnail.jpg",
       images:  "https://cdn.dummyjson.com/product-images/4/1.jpg", 
-    comment:""
+     numReview : 2,
     },
     {
       title: "Huawei P30",
@@ -62,7 +62,7 @@ const products = [
       category: "smartphones",
       thumbnail: "https://cdn.dummyjson.com/product-images/5/thumbnail.jpg",
       images:  "https://cdn.dummyjson.com/product-images/5/1.jpg", 
-  comment:""
+   numReview : 2,
     },
     {
       title: "MacBook Pro",
@@ -75,7 +75,7 @@ const products = [
       category: "laptops",
       thumbnail: "https://cdn.dummyjson.com/product-images/6/thumbnail.png",
       images:  "https://cdn.dummyjson.com/product-images/6/1.png", 
-  comment:""
+   numReview : 2,
     },
     {
       title: "Samsung Galaxy Book",
@@ -88,7 +88,7 @@ const products = [
       category: "laptops",
       thumbnail: "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg",
       images:  "https://cdn.dummyjson.com/product-images/7/1.jpg", 
-    comment:""
+     numReview : 2,
     },
     {
       title: "Microsoft Surface Laptop 4",
@@ -101,7 +101,7 @@ const products = [
       category: "laptops",
       thumbnail: "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg",
       images:  "https://cdn.dummyjson.com/product-images/8/1.jpg", 
-    comment:""
+     numReview : 2,
     },
     {
       title: "Infinix INBOOK",
@@ -114,7 +114,7 @@ const products = [
       category: "laptops",
       thumbnail: "https://cdn.dummyjson.com/product-images/9/thumbnail.jpg",
       images:  "https://cdn.dummyjson.com/product-images/9/1.jpg", 
-    comment:""
+     numReview : 2,
     },
     {
       
@@ -128,7 +128,7 @@ const products = [
       category: "laptops",
       thumbnail: "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg",
       images:  "https://cdn.dummyjson.com/product-images/10/1.jpg", 
-    comment:""
+     numReview : 2,
     },
     {
       
@@ -142,7 +142,7 @@ const products = [
       category: "fragrances",
       thumbnail: "https://cdn.dummyjson.com/product-images/11/thumbnail.jpg",
       images:  "https://cdn.dummyjson.com/product-images/11/1.jpg", 
-    comment:""
+     numReview : 2,
     },
     {
       
@@ -156,7 +156,7 @@ const products = [
       category: "fragrances",
       thumbnail: "https://cdn.dummyjson.com/product-images/12/thumbnail.jpg",
       images:  "https://cdn.dummyjson.com/product-images/12/1.jpg", 
-    comment:"Nice Product"
+     numReview : 2,
     },
     {
       
@@ -170,7 +170,7 @@ const products = [
       category: "fragrances",
       thumbnail: "https://cdn.dummyjson.com/product-images/13/thumbnail.webp",
       images:  "https://cdn.dummyjson.com/product-images/13/1.jpg", 
-    comment:"Nice Product"
+     numReview : 2,
     },
     {
       
@@ -184,7 +184,7 @@ const products = [
       category: "fragrances",
       thumbnail: "https://cdn.dummyjson.com/product-images/14/thumbnail.jpg",
       images:  "https://cdn.dummyjson.com/product-images/14/1.jpg", 
-    comment:"Nice Product"
+     numReview : 2,
     },
     {
       
@@ -198,7 +198,7 @@ const products = [
       category: "fragrances",
       thumbnail: "https://cdn.dummyjson.com/product-images/15/thumbnail.jpg",
       images:  "https://cdn.dummyjson.com/product-images/15/1.jpg", 
-    comment:"Nice Product"
+     numReview : 2,
     },
     {
       
@@ -212,7 +212,7 @@ const products = [
       category: "skincare",
       thumbnail: "https://cdn.dummyjson.com/product-images/16/thumbnail.jpg",
       images:  "https://cdn.dummyjson.com/product-images/16/1.png", 
-      comment:"Nice Product"    
+       numReview : 2,    
     },
     {
       
@@ -226,7 +226,7 @@ const products = [
       category: "skincare",
       thumbnail: "https://cdn.dummyjson.com/product-images/17/thumbnail.jpg",
       images:  "https://cdn.dummyjson.com/product-images/17/1.jpg", 
-    comment:"Nice Product"
+     numReview : 2,
     },
     {
       
@@ -240,7 +240,7 @@ const products = [
       category: "skincare",
       thumbnail: "https://cdn.dummyjson.com/product-images/18/thumbnail.jpg",
       images:  "https://cdn.dummyjson.com/product-images/18/1.jpg", 
-    comment:"Nice Product"
+     numReview : 2,
     },
     {
       
@@ -254,7 +254,7 @@ const products = [
       category: "skincare",
       thumbnail: "https://cdn.dummyjson.com/product-images/19/thumbnail.jpg",
       images:  "https://cdn.dummyjson.com/product-images/19/1.jpg", 
-    comment:"Nice Product"
+     numReview : 2,
     },
     {
       
@@ -268,7 +268,7 @@ const products = [
       category: "skincare",
       thumbnail: "https://cdn.dummyjson.com/product-images/20/thumbnail.jpg",
       images:  "https://cdn.dummyjson.com/product-images/20/1.jpg", 
-    comment:"Nice Product"
+     numReview : 2,
     },
     {
       
@@ -282,7 +282,7 @@ const products = [
       category: "groceries",
       thumbnail: "https://cdn.dummyjson.com/product-images/21/thumbnail.png",
       images:  "https://cdn.dummyjson.com/product-images/21/1.png", 
-    comment:"Nice Product"
+     numReview : 2,
     },
     {
       
@@ -296,7 +296,7 @@ const products = [
       category: "groceries",
       thumbnail: "https://cdn.dummyjson.com/product-images/22/thumbnail.jpg",
       images:  "https://cdn.dummyjson.com/product-images/22/1.jpg", 
-    comment:"Nice Product"
+     numReview : 2,
     },
     {
       
@@ -310,7 +310,7 @@ const products = [
       category: "groceries",
       thumbnail: "https://cdn.dummyjson.com/product-images/23/thumbnail.jpg",
       images:  "https://cdn.dummyjson.com/product-images/23/1.jpg", 
-    comment:"Nice Product"
+     numReview : 2,
     },
     {
       
@@ -324,7 +324,7 @@ const products = [
       category: "groceries",
       thumbnail: "https://cdn.dummyjson.com/product-images/24/thumbnail.jpg",
       images:  "https://cdn.dummyjson.com/product-images/24/1.jpg", 
-    comment:"Nice Product"
+     numReview : 2,
     },
     {
       
@@ -338,7 +338,7 @@ const products = [
       category: "groceries",
       thumbnail: "https://cdn.dummyjson.com/product-images/25/thumbnail.jpg",
       images:  "https://cdn.dummyjson.com/product-images/25/1.png", 
-    comment:"Nice Product"
+     numReview : 2,
     },
     {
       
@@ -352,7 +352,7 @@ const products = [
       category: "home-decoration",
       thumbnail: "https://cdn.dummyjson.com/product-images/26/thumbnail.jpg",
       images:  "https://cdn.dummyjson.com/product-images/26/1.jpg", 
-    comment:"Nice Product"
+     numReview : 2,
     },
     {
       
@@ -366,7 +366,7 @@ const products = [
       category: "home-decoration",
       thumbnail: "https://cdn.dummyjson.com/product-images/27/thumbnail.webp",
       images:  "https://cdn.dummyjson.com/product-images/27/1.jpg", 
-    comment:"Nice Product"
+     numReview : 2,
     },
     {
       
@@ -380,7 +380,7 @@ const products = [
       category: "home-decoration",
       thumbnail: "https://cdn.dummyjson.com/product-images/28/thumbnail.jpg",
       images:  "https://cdn.dummyjson.com/product-images/28/1.jpg", 
-    comment:"Nice Product"
+     numReview : 2,
     },
     {
       
@@ -394,7 +394,7 @@ const products = [
       category: "home-decoration",
       thumbnail: "https://cdn.dummyjson.com/product-images/29/thumbnail.webp",
       images:  "https://cdn.dummyjson.com/product-images/29/1.jpg", 
-    comment:"Nice Product"
+     numReview : 2,
     },
     {
       
@@ -408,7 +408,7 @@ const products = [
       category: "home-decoration",
       thumbnail: "https://cdn.dummyjson.com/product-images/30/thumbnail.jpg",
       images:  "https://cdn.dummyjson.com/product-images/30/1.jpg", 
-    comment:"Nice Product"
+     numReview : 2,
     },
     {
       
@@ -422,7 +422,7 @@ const products = [
       category: "furniture",
       thumbnail: "https://cdn.dummyjson.com/product-images/31/thumbnail.jpg",
       images:  "https://cdn.dummyjson.com/product-images/31/1.jpg", 
-    comment:"Nice Product"
+     numReview : 2,
     },
     {
       
@@ -436,7 +436,7 @@ const products = [
       category: "furniture",
       thumbnail: "https://cdn.dummyjson.com/product-images/32/thumbnail.jpg",
       images:  "https://cdn.dummyjson.com/product-images/32/1.jpg", 
-    comment:"Nice Product"
+     numReview : 2,
     },
     {
       
@@ -450,7 +450,7 @@ const products = [
       category: "furniture",
       thumbnail: "https://cdn.dummyjson.com/product-images/33/thumbnail.jpg",
       images:  "https://cdn.dummyjson.com/product-images/33/1.jpg", 
-    comment:"Nice Product"
+     numReview : 2,
     },
     {
       
@@ -464,7 +464,7 @@ const products = [
       category: "furniture",
       thumbnail: "https://cdn.dummyjson.com/product-images/34/thumbnail.jpg",
       images:  "https://cdn.dummyjson.com/product-images/34/1.jpg", 
-    comment:"Nice Product"
+     numReview : 2,
     },
     {
       
@@ -478,7 +478,7 @@ const products = [
       category: "furniture",
       thumbnail: "https://cdn.dummyjson.com/product-images/35/thumbnail.jpg",
       images:  "https://cdn.dummyjson.com/product-images/35/1.jpg", 
-    comment:"Nice Product"
+     numReview : 2,
     },
     {
       
@@ -492,7 +492,7 @@ const products = [
       category: "tops",
       thumbnail: "https://cdn.dummyjson.com/product-images/36/thumbnail.jpg",
       images:  "https://cdn.dummyjson.com/product-images/36/1.jpg", 
-    comment:"Nice Product"
+     numReview : 2,
     },
     {
       
@@ -506,7 +506,7 @@ const products = [
       category: "tops",
       thumbnail: "https://cdn.dummyjson.com/product-images/37/thumbnail.jpg",
       images:  "https://cdn.dummyjson.com/product-images/37/1.jpg", 
-    comment:"Nice Product"
+     numReview : 2,
     },
     {
       
@@ -520,7 +520,7 @@ const products = [
       category: "tops",
       thumbnail: "https://cdn.dummyjson.com/product-images/38/thumbnail.jpg",
       images:  "https://cdn.dummyjson.com/product-images/38/1.png", 
-    comment:"Nice Product"
+     numReview : 2,
     },
     {
       
@@ -534,7 +534,7 @@ const products = [
       category: "tops",
       thumbnail: "https://cdn.dummyjson.com/product-images/39/thumbnail.jpg",
       images:  "https://cdn.dummyjson.com/product-images/39/1.jpg", 
-    comment:"Nice Product"
+     numReview : 2,
     },
     {
       
@@ -548,7 +548,7 @@ const products = [
       category: "tops",
       thumbnail: "https://cdn.dummyjson.com/product-images/40/thumbnail.jpg",
       images:  "https://cdn.dummyjson.com/product-images/40/1.jpg", 
-    comment:"Nice Product"
+     numReview : 2,
     },
     {
       
@@ -562,7 +562,7 @@ const products = [
       category: "womens-dresses",
       thumbnail: "https://cdn.dummyjson.com/product-images/41/thumbnail.webp",
       images:  "https://cdn.dummyjson.com/product-images/41/1.jpg", 
-    comment:"Nice Product"
+     numReview : 2,
     },
     {
       
@@ -576,7 +576,7 @@ const products = [
       category: "womens-dresses",
       thumbnail: "https://cdn.dummyjson.com/product-images/42/thumbnail.jpg",
       images:  "https://cdn.dummyjson.com/product-images/42/1.png", 
-    comment:"Nice Product"
+     numReview : 2,
     },
     {
       
@@ -590,7 +590,7 @@ const products = [
       category: "womens-dresses",
       thumbnail: "https://cdn.dummyjson.com/product-images/43/thumbnail.jpg",
       images:  "https://cdn.dummyjson.com/product-images/43/1.jpg", 
-    comment:"Nice Product"
+     numReview : 2,
     },
     {
       
@@ -604,7 +604,7 @@ const products = [
       category: "womens-dresses",
       thumbnail: "https://cdn.dummyjson.com/product-images/44/thumbnail.jpg",
       images:  "https://cdn.dummyjson.com/product-images/44/1.jpg", 
-    comment:"Nice Product"
+     numReview : 2,
     },
     {
       
@@ -618,7 +618,7 @@ const products = [
       category: "womens-dresses",
       thumbnail: "https://cdn.dummyjson.com/product-images/45/thumbnail.jpg",
       images:  "https://cdn.dummyjson.com/product-images/45/1.jpg", 
-    comment:"Nice Product"
+     numReview : 2,
     },
     {
       
@@ -632,7 +632,7 @@ const products = [
       category: "womens-shoes",
       thumbnail: "https://cdn.dummyjson.com/product-images/46/thumbnail.jpg",
       images:  "https://cdn.dummyjson.com/product-images/46/1.webp", 
-    comment:"Nice Product"
+     numReview : 2,
     },
     {
       
@@ -646,7 +646,7 @@ const products = [
       category: "womens-shoes",
       thumbnail: "https://cdn.dummyjson.com/product-images/47/thumbnail.jpeg",
       images:  "https://cdn.dummyjson.com/product-images/47/1.jpg", 
-    comment:"Nice Product"
+     numReview : 2,
     },
     {
       
@@ -660,7 +660,7 @@ const products = [
       category: "womens-shoes",
       thumbnail: "https://cdn.dummyjson.com/product-images/48/thumbnail.jpg",
       images:  "https://cdn.dummyjson.com/product-images/48/1.jpg", 
-    comment:"Nice Product"
+     numReview : 2,
     },
     {
       
@@ -674,7 +674,7 @@ const products = [
       category: "womens-shoes",
       thumbnail: "https://cdn.dummyjson.com/product-images/49/thumbnail.jpg",
       images:  "https://cdn.dummyjson.com/product-images/49/1.jpg", 
-    comment:"Nice Product"
+     numReview : 2,
     },
     {
       
@@ -688,7 +688,7 @@ const products = [
       category: "womens-shoes",
       thumbnail: "https://cdn.dummyjson.com/product-images/50/thumbnail.jpg",
       images:  "https://cdn.dummyjson.com/product-images/50/1.jpeg", 
-    comment:"Nice Product"
+     numReview : 2,
     }
  
 ]
